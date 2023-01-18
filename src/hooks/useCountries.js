@@ -7,6 +7,7 @@ export function useCountries() {
   useEffect(() => {
     const fetchData = async () => {
       const resp = await getCountries();
+      console.log(resp);
       setCountries(resp);
     };
     fetchData();
