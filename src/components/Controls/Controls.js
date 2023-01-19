@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { useCountries } from '../../hooks/useCountries.js';
+import './Controls.css';
 
 export default function Controls({ setContinent, countries }) {
   //   const countries = useCountries();

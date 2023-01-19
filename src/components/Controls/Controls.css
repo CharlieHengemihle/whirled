@@ -1,0 +1,8 @@
+.filter {
+  display: flex;
+  position: sticky;
+  position: top;
+  align-content: center;
+  height: 5vh;
+  width: 25vw;
+}

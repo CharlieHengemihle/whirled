@@ -1,0 +1,11 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.warning {
+  background-color: red;
+  height: 50vh;
+  width: 50 vw;
+}
