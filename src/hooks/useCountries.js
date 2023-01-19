@@ -4,12 +4,13 @@ import { getCountries } from '../services/countries.js';
 export function useCountries() {
   const [countries, setCountries] = useState([]);
   const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
+
     const fetchData = async () => {
       try {
-        setLoading(true);
         const resp = await getCountries();
         setCountries(resp);
         setLoading(false);
@@ -18,7 +19,6 @@ export function useCountries() {
       }
     };
     fetchData();
-    setLoading(false);
   }, []);
   return { countries, error, loading };
 }

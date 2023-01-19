@@ -1,8 +1,9 @@
 .filter {
   display: flex;
-  position: sticky;
-  position: top;
+  position: fixed;
+  top: 0;
   align-content: center;
   height: 5vh;
   width: 25vw;
+  left: 50%;
 }
