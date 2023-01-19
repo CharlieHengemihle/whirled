@@ -1,4 +1,4 @@
-Countries of the World
+<!-- Countries of the World
 Use the React Base Template to start this deliverable. An example of the final product can be found [here](https://alchemy-react-countries.netlify.app/)
 
 Learning Objectives
@@ -28,4 +28,4 @@ Users can filter by continent	4
 Stretch (up to 3 points)
 Add a loading state (+1)
 Allow users to query by country name (+1)
-Allow users to sort by name (+1)
+Allow users to sort by name (+1) -->
